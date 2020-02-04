@@ -52,3 +52,11 @@ p {
   font-size: 25px;
   line-height: 30px;
 }
+
+.cars {
+  font-weight: 700; 
+  min-width: 100%; 
+  text-align: left;
+  margin-top: 30px;
+  
+}

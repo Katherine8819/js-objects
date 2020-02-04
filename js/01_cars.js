@@ -30,19 +30,19 @@
             for (let i = 4; i <= hours; i += 4) {
                 fourthHour++
             }
-            console.log(fourthHour);
+
 
             let hoursWithRest = hours + fourthHour
             if (hours >= 4) {
-                document.write(`<p style="font-weight: 700">Для преодоления ${distance} км 
+                document.write(`<p class="cars">Для преодоления ${distance} км 
                                         потребуется ${hoursWithRest} ч. ${minutes} мин., с учетом ${fourthHour} ч. отдыха.</p>`)
 
             } else {
-                document.write(`<p style="font-weight: 700">Для преодоления ${distance} км потребуется ${hours} ч. ${minutes} мин.</p>`)
+                document.write(`<p class="cars">Для преодоления ${distance} км потребуется ${hours} ч. ${minutes} мин.</p>`)
             }
 
         } else {
-            document.write(`<p style="font-weight: 700">Для преодоления ${distance} км потребуется ${time} мин.</p>`)
+            document.write(`<p class="cars">Для преодоления ${distance} км потребуется ${time} мин.</p>`)
         }
     }
     countTime(2000);
